@@ -1,34 +1,33 @@
-<!-- This is the doctype declaration : we call the browser that this is an html document -->
-<!-- The doctype declaration is not an HTML tag. It is an instruction to the web browser 
-    about what version of HTML the page is written in. -->
 <!DOCTYPE html>
-<!-- This is the html tag : it contains all the html code -->
-<!-- The lang attribute is used to specify the language of the element's content. -->
 <html lang="en">
   <head>
-    <!-- This line specifies the character encoding of the document to be UTF-8 -->
     <meta charset="UTF-8" />
-    <!-- This line specifies the compatibility mode of the browser , 
-    it sets the X-UA-Compatible header, which instructs Internet Explorer 
-    to use the latest rendering engine available. This is important because different
-    versions of Internet Explorer may use different rendering engines, 
-    which can cause compatibility issues with certain websites-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- This line specifies the viewport width and the initial scale of the page -->
-    <!-- The viewport is the user's visible area of a web page. -->
-    <!-- It varies with the device - it will be smaller on a mobile phone than on a computer screen. -->
-    <!-- The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device). -->
-    <!-- The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- This line specifies the title of the document -->
     <title>1-your-first-html-document</title>
+    <style>
+      img {
+        width: 70px;
+        height: 100px;
+        border-radius: 50%;
+        float: left;
+        margin: 0 10px;
+      }
+      p {
+        color: red;
+      }
+      p.username {
+        color: blue;
+        font-weight: bold;
+      }
+    </style>
   </head>
-  <!-- This is the body tag : it contains all the visible content of the page -->
-  <!-- The body tag is a container for all the contents of an HTML document,
-     such as headings, paragraphs, images, hyperlinks, tables, lists, etc. -->
   <body>
-    <!-- This is the p tag : it contains a paragraph -->
     <p>Hello World!</p>
+    <div>
+      <img src="images/me.jpg" alt="my image" />
+      <p class="username">@hamzadabaghi</p>
+      <p>I love programming!</p>
+    </div>
   </body>
-  <!-- This is the closing html tag -->
 </html>
