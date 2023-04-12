@@ -1,6 +1,6 @@
 ## html-css-training
 
-![random picture about cats](https://genrandom.com/api/cat)
+![random picture about cats](https://picsum.photos/200/300)
 
 ### Description
 
