@@ -10,11 +10,16 @@ jobs:
     if: startsWith(github.ref, 'refs/heads/')
     runs-on: ubuntu-latest
     steps:
-      - name: Set up Git
+      - name: Set up Git global config
         run: |
           git config --global user.email "hamza.dabaghi@gmail.com"
           git config --global user.name "hamza dabaghi"
           git config --global user.username "hamzadabaghi"
+      - name: Get the github token
+        uses: actions/secret-manager@v0
+        id: get_secret
+        with:
+          name: GT_TOKEN
       - name: Checkout code
         uses: actions/checkout@v2
         with:
@@ -26,3 +31,5 @@ jobs:
           git add README.md
           git commit -m "Updated README"
           git push
+        env:
+          GITHUB_TOKEN: ${{ steps.get_secret.outputs.secret }}
