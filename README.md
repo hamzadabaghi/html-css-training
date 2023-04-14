@@ -14,6 +14,7 @@ This repository keeps track of my _HTML_ and _CSS_ learning progress.
 
 ### Branches
 
+- main
 - your first HTML document
 - your-first-css-styles
 - html-head-section
