@@ -22,7 +22,7 @@ jobs:
       - name: Update README.md
         run: |
           branch_name=$(basename $GITHUB_REF)
-          echo -e "- _$branch_name_" >> README.md
+          echo -e "- $branch_name" >> README.md
           git add README.md
           git commit -m "Updated README"
           git push
