@@ -28,4 +28,4 @@ jobs:
           cat README.md
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GT_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
