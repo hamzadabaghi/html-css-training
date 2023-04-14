@@ -1,0 +1,23 @@
+name: Update README on branch create
+
+on:
+  create:
+    branches:
+      - '*'
+
+jobs:
+  update-readme:
+    if: startsWith(github.ref, 'refs/heads/')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          ref: main
+      - name: Update README.md
+        run: |
+          branch_name=$(basename $GITHUB_REF)
+          echo "- \`$branch_name\` >> README.md
+          git add README.md
+          git commit -m "Updated README"
+          git push
