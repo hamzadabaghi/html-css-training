@@ -15,11 +15,6 @@ jobs:
           git config --global user.email "hamza.dabaghi@gmail.com"
           git config --global user.name "hamza dabaghi"
           git config --global user.username "hamzadabaghi"
-      - name: Get the github token
-        uses: actions/secret-manager@v0
-        id: get_secret
-        with:
-          name: GT_TOKEN
       - name: Checkout code
         uses: actions/checkout@v2
         with:
@@ -32,4 +27,4 @@ jobs:
           git commit -m "Updated README"
           git push
         env:
-          GITHUB_TOKEN: ${{ steps.get_secret.outputs.secret }}
+          GITHUB_TOKEN: ${{ secrets.GT_TOKEN }}
