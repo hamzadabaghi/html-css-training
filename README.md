@@ -13,7 +13,7 @@ This repository keeps track of my _HTML_ and _CSS_ learning progress.
 3. _html-head-section_
 4. _html-entities_
 5. _html-text_
-6. _html_hyperlinks_
+6. _html-hyperlinks_
 
 ### Trainer
 
