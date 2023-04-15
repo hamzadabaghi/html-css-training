@@ -17,7 +17,11 @@
     <p>
       Hello World!
       </p>
-      <video src="videos/fish.mp4" controls>Fish</video>
+      <!-- by default we see only an image of the video -->
+      <!-- controls is a boolean attribute -->
+      <video src="videos/fish.mp4" autoplay controls loop >
+        Your browser doesn't support videos <!-- this is a common best practice -->
+      </video>
     </p>
   </body>
 </html>
