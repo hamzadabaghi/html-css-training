@@ -14,10 +14,12 @@ This repository keeps track of my _HTML_ and _CSS_ learning progress.
 
 ### Branches
 
-- _your first HTML document_
-- _your-first-css-styles_
-- _html-head-section_
-- _html-entities_
-- _html-text_
-- _html-hyperlinks_
-- _
+- main
+- your first HTML document
+- your-first-css-styles
+- html-head-section
+- html-entities
+- html-text
+- html-hyperlinks
+- html-images
+- html-video-audio
