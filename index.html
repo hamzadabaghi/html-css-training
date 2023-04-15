@@ -8,57 +8,38 @@
     <meta name="keywords" content="HTML, CSS, HEAD, Development" />
     <title>html head section</title>
     <style>
-      ul {
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 50vw;
-        align-items: center;
-        margin: auto;
-        background-color: antiquewhite;
-        padding: 1rem;
-        border-radius: 0.5rem;
-        border: 1px dashed rgb(0, 0, 0);
-      }
-      a {
-        text-decoration: none;
-        color: rgb(0, 130, 35);
-        font-size: 1.5rem;
-        font-weight: 600;
-      }
-      a:hover {
-        color: rgb(0, 0, 0);
-        background-color: rgb(204, 93, 182);
-        padding: 0.5rem;
-        border-radius: 0.5rem;
-        color: #ffffff;
+      table,
+      td,
+      th {
+        border: 1px dashed black;
+        border-collapse: collapse; /* this is to remove the space between the border and the table */
+        padding: 0.75rem;
+        text-align: left;
       }
     </style>
   </head>
   <body>
-    <p>Unordered List</p>
-    <ul>
-      <li><a href="https://google.com" target="_blank">hamza</a></li>
-      <li><a href="https://google.com" target="_blank">soufiane</a></li>
-      <li><a href="https://google.com" target="_blank">imane</a></li>
-      <li><a href="https://google.com" target="_blank">mohammed</a></li>
-    </ul>
-    <ol>
-      <li>Tomato</li>
-      <li>Carrots</li>
-      <li>Bread</li>
-      <li>Soupe</li>
-      <li>Knife</li>
-      <li>Home</li>
-    </ol>
-    <!-- Description List -->
-    <dl>
-      <dt>HTML</dt>
-      <dd>HTML is a programming language</dd>
-      <dd>HTML is simple</dd>
-      <dt>CSS</dt>
-      <dd>CSS is a programming language</dd>
-    </dl>
+    <p>Tables</p>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Expenses</th>
+        </tr>
+        <tr>
+          <th>Category</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Marketing</td>
+          <td>$200</td>
+        </tr>
+        <tr>
+          <td>DSI</td>
+          <td>$300</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
