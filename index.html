@@ -21,19 +21,17 @@
     </style>
   </head>
   <body>
-    <!-- p and div are both block level elements -->
-    <div>
-      <p>Lorem ipsum dolor sit amet.</p>
-      <a href="#">Page</a>
-    </div>
-    <div>
-      <!-- span is an inline element -->
-      <p><span>Lorem</span> ipsum dolor sit amet.</p>
-      <a href="#">Page</a>
-    </div>
-    <div>
-      <!--inline-block elements-->
-      <button>hello</button>
-    </div>
+    <!-- Semantic elements help the search engines better understand the content -->
+    <!-- mark is more semantic than span in highlithing elements (like em element )  -->
+    <article>
+      <p>Article 1 : Hello <mark>World</mark></p>
+      <!-- instead of div, article could be any independent, self-contained content (like cards) -->
+      <!-- can embed an image inside, now we should use figure -->
+      <figure>
+        <img src="https://picsum.photos/200/300" alt="random image" />
+        <!-- caption for the image : can be above or below the image -->
+        <figcaption>Random Image</figcaption>
+      </figure>
+    </article>
   </body>
 </html>
