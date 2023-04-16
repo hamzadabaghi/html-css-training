@@ -26,3 +26,4 @@ This repository keeps track of my _HTML_ and _CSS_ learning progress.
 - html-lists
 - html-tables
 - html-containers
+- html-semantic-elements
