@@ -1,16 +1,18 @@
 body {
   margin: auto;
   max-width: 50vw;
-  background-color: lightgray;
+  background-color: rgb(230, 230, 230);
+  max-height: 100vh;
 }
 h2 {
   background-color: goldenrod;
+  width: fit-content;
 }
 section,
 article {
   border: 1px dotted black;
   margin: 5px;
-  padding: 5px;
+  padding: 6px;
   max-width: 50vw;
 }
 ul {
@@ -30,5 +32,5 @@ a:hover {
 }
 footer {
   background-color: goldenrod;
-  padding: 1rem;
+  padding: 0.5rem;
 }
