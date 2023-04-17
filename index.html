@@ -6,16 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="This is a description" />
     <meta name="keywords" content="HTML, CSS, HEAD, Development" />
-    <title>html head section</title>
+    <!-- external styles -->
+    <link rel="stylesheet" href="styles/styles.css" />
+    <!-- embedded styles -->
+    <style>
+      header {
+        background-color: #f1f1f1;
+        padding: 30px;
+        text-align: center;
+      }
+    </style>
+    <title>css section</title>
     <style></style>
   </head>
   <body>
-    <!-- all the semantic elements are relative, we could use them as much as we want to structure our web pages ( there are some exceptions )-->
-    <!-- header for the website header, header of section, article ... -->
     <header>
-      <!-- nav for navigation -->
       <nav>
-        <!-- unordered list for navigation -->
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Pricing</a></li>
@@ -23,13 +29,10 @@
         </ul>
       </nav>
     </header>
-    <!-- main for the main content, should be one in the whole page -->
     <main>
-      <!-- section group related content -->
       <section>
-        <!-- every section should have a heading -->
-        <!-- we could have multipe sections inside an article and vice-versa -->
-        <h2>Products</h2>
+        <!-- inline styles -->
+        <h2 style="color: brown">Products</h2>
         <article>Product 1</article>
         <article>Product 2</article>
       </section>
@@ -39,13 +42,9 @@
         <article>Recommendation 2</article>
       </section>
     </main>
-    <!-- aside for the side content (unrelated content to the main one ) -->
     <aside></aside>
-    <!-- footer for the bottom of the website -->
     <footer>
-      <!-- nav for navigation -->
       <nav>
-        <!-- unordered list for navigation -->
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Pricing</a></li>
