@@ -6,11 +6,9 @@
 
 This repository keeps track of my _HTML_ and _CSS_ learning progress.
 
-
 ### Trainer
 
 [mosh hamedani](http://bit.ly/3Uul0zK)
-
 
 ### Branches
 
