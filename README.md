@@ -6,11 +6,9 @@
 
 This repository keeps track of my _HTML_ and _CSS_ learning progress.
 
-
 ### Trainer
 
 [mosh hamedani](http://bit.ly/3Uul0zK)
-
 
 ### Branches
 
@@ -30,3 +28,4 @@ This repository keeps track of my _HTML_ and _CSS_ learning progress.
 - html-structuring-web-page
 - css-providing-styles
 - css-normalizing-css
+- css-basic-selectors
