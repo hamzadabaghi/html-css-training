@@ -1,25 +1,19 @@
-/* selecting elements by tag */
-a {
-  color: green;
+/* descendent selector : select any p elements (inside) the element referenced by #products*/
+#products p {
+  color: #870404;
 }
 
-/* selecting elements by id */
-
-#google {
-  color: red;
+/* child selector : select only the child p elements (inside) the element referenced by #products*/
+#products > p {
+  color: #00872b;
 }
 
-/* selecting elements by class */
-.linkedin {
-  color: blue;
+/* adjacent sibling selector : select the p element that comes immediatly after and (outside) the element #products */
+#products + p {
+  color: #041187;
 }
 
-/* selecting elements by attribute : complete match */
-a[href='www.google.com'] {
-  color: rgb(242, 255, 0);
-}
-
-/* selecting elements by attribute : regex */
-a[href*='google'] {
-  color: rgb(7, 156, 61);
+/* general sibling selector : select all the p elements that come immediatly after and (outside) the element #products */
+#products ~ p {
+  color: #5f0261;
 }
