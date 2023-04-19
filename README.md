@@ -30,3 +30,4 @@ This repository keeps track of my _HTML_ and _CSS_ learning progress.
 - css-normalizing-css
 - css-basic-selectors
 - css-relational-selectors
+- css-pseudo-class-selectors
