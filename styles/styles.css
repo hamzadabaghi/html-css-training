@@ -1,36 +1,25 @@
-body {
-  margin: auto;
-  max-width: 50vw;
-  background-color: rgb(230, 230, 230);
-  max-height: 100vh;
-}
-h2 {
-  background-color: goldenrod;
-  width: fit-content;
-}
-section,
-article {
-  border: 1px dotted black;
-  margin: 5px;
-  padding: 6px;
-  max-width: 50vw;
-}
-ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 0;
-  max-width: 50vw;
-}
+/* selecting elements by tag */
 a {
-  text-decoration: none;
-  padding: 1rem;
+  color: green;
 }
-a:hover {
-  background-color: lightpink;
+
+/* selecting elements by id */
+
+#google {
+  color: red;
 }
-footer {
-  background-color: goldenrod;
-  padding: 0.5rem;
+
+/* selecting elements by class */
+.linkedin {
+  color: blue;
+}
+
+/* selecting elements by attribute : complete match */
+a[href='www.google.com'] {
+  color: rgb(242, 255, 0);
+}
+
+/* selecting elements by attribute : regex */
+a[href*='google'] {
+  color: rgb(7, 156, 61);
 }
