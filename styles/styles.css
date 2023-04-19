@@ -1,25 +1,17 @@
-/* first-child selector */
-#products :first-child {
-  color: coral;
+/* first-line */
+p::first-line {
+  color: #00b427;
 }
 
-/* first-of-type selector without defining with element */
-#products :first-of-type {
-  color: rgb(16, 93, 52);
+/* first-letter */
+p::first-letter {
+  color: #ff0000;
+  font-size: 2em;
 }
 
-/* first-of-type selector with defining with element */
-#products h2:first-of-type {
-  color: rgb(93, 16, 16);
-}
-
-/* nth-child(n) selector */
-ul li:nth-child(odd) {
-  color: rgb(94, 6, 81);
-}
-
-/* :hover & :focus selector */
-#products h2:hover,
-#products h2:focus {
-  color: rgb(14, 0, 122);
+/* p::after */
+p::after {
+  content: '(end of paragraph)';
+  display: inline;
+  color: #ff0000;
 }
