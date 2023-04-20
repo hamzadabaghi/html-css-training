@@ -1,12 +1,9 @@
-/* colors of id selector is more specific than the class selector */
-.products > section #highlight {
-  color: rebeccapurple;
-  background-color: yellow;
-}
-#highlight.products {
-  color: rgb(45, 193, 0);
+p {
+  color: dodgerblue;
+  border: 1px solid dodgerblue;
 }
 
-#highlight {
-  color: dodgerblue;
+strong {
+  color: initial; /* stops inheritance */
+  border: inherit; /* force inheritance */
 }
