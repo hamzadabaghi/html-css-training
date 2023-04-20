@@ -1,17 +1,12 @@
-/* first-line */
-p::first-line {
-  color: #00b427;
+/* colors of id selector is more specific than the class selector */
+.products > section #highlight {
+  color: rebeccapurple;
+  background-color: yellow;
+}
+#highlight.products {
+  color: rgb(45, 193, 0);
 }
 
-/* first-letter */
-p::first-letter {
-  color: #ff0000;
-  font-size: 2em;
-}
-
-/* p::after */
-p::after {
-  content: '(end of paragraph)';
-  display: inline;
-  color: #ff0000;
+#highlight {
+  color: dodgerblue;
 }
