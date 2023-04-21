@@ -1,9 +1,20 @@
-p {
-  color: dodgerblue;
-  border: 1px solid dodgerblue;
+.box-1 {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(245, 134, 53, 0.2);
 }
 
-strong {
-  color: initial; /* stops inheritance */
-  border: inherit; /* force inheritance */
+.box-2 {
+  width: 200px;
+  height: 200px;
+  background-color: hsl(50 80% 40%);
+  /* First value: hue, angle of the color Circle */
+  /* Second Value: Saturation. */
+  /* Third Value is Lightness. 0% Is black, 100% is white */
+}
+
+.box-3 {
+  width: 200px;
+  height: 200px;
+  background-color: #096e03;
 }
