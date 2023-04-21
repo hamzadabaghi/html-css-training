@@ -36,3 +36,4 @@ This repository keeps track of my _HTML_ and _CSS_ learning progress.
 - css-inheritance
 - css-colors
 - css-gradients
+- css-borders
