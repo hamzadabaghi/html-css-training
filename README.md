@@ -34,3 +34,4 @@ This repository keeps track of my _HTML_ and _CSS_ learning progress.
 - css-pseudo-element-selectors
 - css-selectors-specificity
 - css-inheritance
+- css-colors
