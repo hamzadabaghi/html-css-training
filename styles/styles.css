@@ -14,7 +14,14 @@
 }
 
 .box-3 {
-  width: 200px;
-  height: 200px;
-  background-color: #096e03;
+  width: 600px;
+  height: 600px;
+  background: rgb(20, 91, 181);
+  background: linear-gradient(
+    90deg,
+    rgb(152, 4, 98),
+    rgba(79, 171, 98, 1),
+    rgb(2, 35, 202),
+    rgb(190, 9, 9)
+  );
 }
