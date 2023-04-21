@@ -1,27 +1,7 @@
 .box-1 {
-  width: 200px;
-  height: 200px;
-  background-color: rgba(245, 134, 53, 0.2);
-}
-
-.box-2 {
-  width: 200px;
-  height: 200px;
-  background-color: hsl(50 80% 40%);
-  /* First value: hue, angle of the color Circle */
-  /* Second Value: Saturation. */
-  /* Third Value is Lightness. 0% Is black, 100% is white */
-}
-
-.box-3 {
-  width: 600px;
-  height: 600px;
-  background: rgb(20, 91, 181);
-  background: linear-gradient(
-    90deg,
-    rgb(152, 4, 98),
-    rgba(79, 171, 98, 1),
-    rgb(2, 35, 202),
-    rgb(190, 9, 9)
-  );
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 100%;
 }
