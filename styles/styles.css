@@ -1,19 +1,18 @@
-/* inline elements */
-.box-1 {
-  background-color: yellow;
-  margin: 1rem;
-  padding: 1rem;
-  border: 1px solid black;
-  box-sizing: border-box;
+/* horizontal scroll */
+.first-container {
+  width: 100px;
+  height: 100px;
+  background-color: goldenrod;
+  border: 1px solid gray;
+  overflow: scroll hidden;
+  white-space: nowrap;
 }
 
-/* div with border box */
-.container-2 {
-  width: 300px;
-  height: 300px;
-  background-color: rgb(25, 152, 11);
-  margin: 1rem;
-  padding: 1rem;
-  border: 1px solid black;
-  box-sizing: border-box;
+/* vertical scroll */
+.second-container {
+  width: 100px;
+  height: 100px;
+  background-color: goldenrod;
+  border: 1px solid gray;
+  overflow: hidden scroll;
 }
