@@ -1,18 +1,25 @@
+html {
+  font-size: 62.5%; /* 1 rem = 10 pixels */
+}
 /* horizontal scroll */
 .first-container {
-  width: 100px;
+  width: 50vw; /* 50% of the width of the viewport */
   height: 100px;
   background-color: goldenrod;
   border: 1px solid gray;
-  overflow: scroll hidden;
-  white-space: nowrap;
+  box-sizing: border-box;
 }
 
-/* vertical scroll */
-.second-container {
-  width: 100px;
-  height: 100px;
-  background-color: goldenrod;
+p {
+  margin: 0;
+  font-size: 1rem
+    /* 1 times the size of the root element ( html : in general 16 pixels ) */;
+  width: 50%; /* 50% of the width of the parent container */
+  height: 1rem;
+  background-color: lightblue;
   border: 1px solid gray;
-  overflow: hidden scroll;
+}
+
+span {
+  font-size: 2em; /* 2 times the size of the p container */
 }
