@@ -21,3 +21,9 @@
 .box:nth-child(3) {
   background-color: rgb(235, 235, 0);
 }
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  background-color: gold;
+  float: left;
+}
