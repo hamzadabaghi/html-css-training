@@ -1,5 +1,48 @@
-p:first-child {
-  color: red;
-  display: none; /* remove the element from the page flow */
-  visibility: hidden; /* make the element hidden (the element is not removed from the page flow) */
+.container {
+  display: flex;
+  flex-direction: column; /* mobile first */
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.box {
+  padding: 1rem;
+}
+
+.box-one {
+  background-color: aqua;
+}
+
+.box-two {
+  background-color: blueviolet;
+}
+
+/* after defining the breakpoint, we can override the mobile styles */
+
+/* don't use breakpoints from the internet */
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .container {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 900px) {
+  .container {
+    flex-direction: row;
+  }
+  .box {
+    background-color: red;
+  }
+}
+
+/* media queries for printers */
+
+@media print {
+  .box {
+    background-color: green;
+  }
+  p {
+    font-size: 12pt; /* pt */
+  }
 }
