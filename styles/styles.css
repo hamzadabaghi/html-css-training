@@ -1,48 +1,12 @@
-.container {
-  display: flex;
-  flex-direction: column; /* mobile first */
+/* define variables */
+
+:root {
+  --color-primary: #ffdd36; /* variable of color */
+}
+.one {
+  background-color: var(--color-primary); /* use variable : --color-primary */
 }
 
-p {
-  font-size: 1.5rem;
-}
-
-.box {
-  padding: 1rem;
-}
-
-.box-one {
-  background-color: aqua;
-}
-
-.box-two {
-  background-color: blueviolet;
-}
-
-/* after defining the breakpoint, we can override the mobile styles */
-
-/* don't use breakpoints from the internet */
-@media screen and (min-width: 575px) and (max-width: 767px) {
-  .container {
-    flex-direction: row;
-  }
-}
-@media screen and (min-width: 900px) {
-  .container {
-    flex-direction: row;
-  }
-  .box {
-    background-color: red;
-  }
-}
-
-/* media queries for printers */
-
-@media print {
-  .box {
-    background-color: green;
-  }
-  p {
-    font-size: 12pt; /* pt */
-  }
+.two {
+  background-color: var(--color-primary);
 }
