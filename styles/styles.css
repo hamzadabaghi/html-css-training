@@ -1,27 +1,5 @@
-/* container of grids */
-.container {
-  border: 3px solid lightgrey;
-  height: 100vh;
-  display: grid; /* grid layout */
-  /* grid-template-rows: 100px 100px 100px; to define 3 rows sized of 100px each  */
-  grid-template-columns: 30fr 70fr; /* To set 2 columns of 100px each.  */
-  grid-template-rows: repeat(3, 100px); /* To set 3 rows of 100px each.  */
-  grid-template-areas: 'header header' 'sidebar main' 'footer footer';
-  justify-items: stretch; /* To stretch the items horizontally.  */
-  align-items: stretch; /* To stretch the items vertically.  */
-  justify-content: center; /* To center the grid horizontally.  */
-  align-content: center; /* To center the grid vertically.  */
-  row-gap: 10px; /* To set the gap between rows.  */
-  column-gap: 10px; /* To set the gap between columns.  */
-  gap: 10px 10px; /* To set the gap between rows and columns.  */
-}
-
-.box {
-  background-color: goldenrod;
-  border: 1px solid black;
-  box-sizing: border-box;
-}
-
-.box-one {
-  grid-area: footer;
+p:first-child {
+  color: red;
+  display: none; /* remove the element from the page flow */
+  visibility: hidden; /* make the element hidden (the element is not removed from the page flow) */
 }
