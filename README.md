@@ -50,3 +50,4 @@ This repository keeps track of my _HTML_ and _CSS_ learning progress.
 - css-layout-media-queries
 - css-best-practices
 - css-animations
+- css-images
