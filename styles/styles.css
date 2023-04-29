@@ -13,6 +13,14 @@ body {
   background-color: gold;
 }
 
+/* 2D transformations */
 .box:hover {
   transform: translate(100px, 100px) rotate(15deg) scale(1.4) skew(16deg);
+}
+
+/* 3D transformations */
+.box:hover {
+  transform: perspective(1000px) rotateY(29deg); /* rotate around the Y axis */
+  transform: perspective(100px) translateZ(10px); /* move along the Z axis */
+  transform-origin: 50% 0; /* the origin of the transformation */
 }
