@@ -1,3 +1,13 @@
-.my__image {
-  width: 100vw;
+/* body {
+  background: url(../images/bg-paper@2x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+} */
+
+.background__shorthand {
+  background: black url(../images/bg-paper@2x.jpg) no-repeat fixed center;
+  background-size: cover;
+  height: 100vh;
 }
