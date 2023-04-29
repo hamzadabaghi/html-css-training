@@ -1,12 +1,18 @@
-/* define variables */
+/* animations */
 
-:root {
-  --color-primary: #ffdd36; /* variable of color */
-}
-.one {
-  background-color: var(--color-primary); /* use variable : --color-primary */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.two {
-  background-color: var(--color-primary);
+.box {
+  width: 100px;
+  height: 200px;
+  background-color: gold;
+}
+
+.box:hover {
+  transform: translate(100px, 100px) rotate(15deg) scale(1.4) skew(16deg);
 }
