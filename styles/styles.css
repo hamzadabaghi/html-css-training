@@ -1,11 +1,10 @@
-/* body {
-  background: url(../images/bg-paper@2x.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-} */
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-.filtered_img {
-  filter: blur(10px);
+p,
+h1 {
+  font-weight: bold;
+  font-style: italic;
+  color: #333;
 }
